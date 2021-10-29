@@ -28,6 +28,10 @@ h1 {
 h4 {
 	font-size: x-large;
 	color: rgb(var(--cls-main));
+	background-color: snow;
+	opacity: 0.75;
+	padding: 10px;
+	border-radius: 10px;
 }
 header {
 	height: 300px;
@@ -40,6 +44,7 @@ header {
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
+	align-items: center;
 }
 main {
 	width: 80%;
