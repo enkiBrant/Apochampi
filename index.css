@@ -14,6 +14,7 @@ body {
 h1,
 h2 {
 	font-family: "Irish Grover", cursive;
+	color: mediumpurple;
 }
 h1 {
 	font-size: 3rem;
@@ -31,16 +32,18 @@ header {
 	padding-top: 50px;
 }
 main {
-	/* background-color: blueviolet; */
 	width: 80%;
 	margin: auto;
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 article {
 	padding-right: 20px;
 }
 aside {
-	width: 30%;
+	width: 100%;
 }
 footer {
 	text-align: center;
@@ -51,4 +54,16 @@ li {
 }
 figure {
 	margin: auto;
+}
+img {
+	width: 100%;
+}
+@media screen and (min-width: 800px) {
+	main {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	aside {
+		width: 300px;
+	}
 }
