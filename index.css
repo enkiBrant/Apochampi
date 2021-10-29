@@ -1,3 +1,6 @@
+:root {
+	--cls-main: 153, 51, 102;
+}
 * {
 	box-sizing: border-box;
 }
@@ -14,7 +17,7 @@ body {
 h1,
 h2 {
 	font-family: "Irish Grover", cursive;
-	color: mediumpurple;
+	color: rgb(var(--cls-main));
 }
 h1 {
 	font-size: 2rem;
@@ -47,23 +50,25 @@ aside {
 }
 footer {
 	text-align: center;
-	background-color: burlywood;
+	background-color: rgba(var(--cls-main), 0.2);
 }
 li {
 	margin-bottom: 20px;
 }
 figure {
 	margin: 20px auto;
+	display: flex;
+	flex-flow: column;
 }
 img {
 	width: 100%;
 }
 figcaption {
 	text-align: center;
-	background-color: mediumslateblue;
+	background-color: rgba(var(--cls-main), 0.2);
 	padding: 5px 0;
 	margin: 0;
-	color: mistyrose;
+	color: rgb(var(--cls-main));
 }
 @media screen and (min-width: 800px) {
 	h1 {
