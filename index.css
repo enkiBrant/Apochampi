@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+body,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: "Inconsolata", monospace;
+}
+h1,
+h2 {
+	font-family: "Irish Grover", cursive;
+}
+h1 {
+	font-size: 3rem;
+	color: white;
+	text-shadow: 3px 0px 6px rgba(86, 37, 23, 0.49),
+		3px 7px 14px rgba(86, 37, 23, 0.49), 3px 7px 14px rgba(86, 37, 23, 0.49);
+}
+header {
+	height: 300px;
+	background-image: url(/images/ba9e5ea5399b8be7d65d5bc201b71f40.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 50px;
+}
+main {
+	/* background-color: blueviolet; */
+	width: 80%;
+	margin: auto;
+	display: flex;
+}
+article {
+	padding-right: 20px;
+}
+aside {
+	width: 30%;
+}
+footer {
+	text-align: center;
+	background-color: burlywood;
+}
+li {
+	margin-bottom: 20px;
+}
+figure {
+	margin: auto;
+}
